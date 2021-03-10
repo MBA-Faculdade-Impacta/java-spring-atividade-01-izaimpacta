@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/atividades")
 public class HelloWorldController {
+  
 
 	@GetMapping("hello")
 	public ResponseEntity<String> helloWorld() {
